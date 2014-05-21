@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+
+        <TabHost
+            android:id="@+id/tabHost"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                </TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- kid 부분 -->
+
+                    <LinearLayout
+                        android:id="@+id/kid"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dip"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <ImageButton
+                                android:id="@+id/bougerplay_kid_btn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="0.5dip"
+                                android:background="@drawable/off_btn" />
+
+                            <ImageButton
+                                android:id="@+id/bougerplay_kid_ran"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="7dip"
+                                android:layout_marginRight="0.5dip"
+                                android:background="@drawable/off_ran" />
+
+                            <ImageButton
+                                android:id="@+id/bougerplay_kid_voice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="7dip"
+                                android:background="@drawable/off_voice" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:id="@+id/introduce_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dip"
+                                android:background="@drawable/kid_intro"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:id="@+id/kid_btn"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dip"
+                                    android:background="@drawable/btn_bg"
+                                    android:visibility="invisible" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginTop="160dip"
+                                        android:orientation="vertical" >
+
+                                        <ImageView
+                                            android:id="@+id/imgJoystick"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:clickable="true"
+                                            android:src="@drawable/joy_bg" />
+
+                                        <ImageView
+                                            android:id="@+id/imgJoyThumb"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/joy_thumb"
+                                            android:visibility="invisible" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/kid_ran"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dip"
+                                android:background="@drawable/kid_ran_bg"
+                                android:orientation="vertical"
+                                android:visibility="invisible" >
+
+                                <ImageButton
+                                    android:id="@+id/ran_play"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="100dip"
+                                    android:background="@drawable/ran_play" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/kid_voice"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dip"
+                                android:background="@drawable/kid_voice_bg"
+                                android:orientation="vertical"
+                                android:visibility="invisible" >
+
+                                <ImageButton
+                                    android:id="@+id/voice_btn"
+                                    android:layout_width="130dip"
+                                    android:layout_height="130dip"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="170dip"
+                                    android:background="@drawable/speech" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+
+                    <!-- cat 부분 -->
+
+                    <LinearLayout
+                        android:id="@+id/cat"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dip"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <ImageButton
+                                android:id="@+id/bougerplay_cat_btn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="0.5dip"
+                                android:background="@drawable/off_btn" />
+
+                            <ImageButton
+                                android:id="@+id/bougerplay_cat_ran"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="7dip"
+                                android:layout_marginRight="0.5dip"
+                                android:background="@drawable/off_ran" />
+
+                            <ImageButton
+                                android:id="@+id/bougerplay_cat_voice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="7dip"
+                                android:background="@drawable/off_voice" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:id="@+id/introduce_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dip"
+                                android:background="@drawable/cat_intro"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:id="@+id/cat_btn"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dip"
+                                    android:background="@drawable/btn_bg"
+                                    android:visibility="invisible" >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginTop="160dip"
+                                        android:orientation="vertical" >
+
+                                        <ImageView
+                                            android:id="@+id/imgJoystick_2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:clickable="true"
+                                            android:src="@drawable/joy_bg" />
+
+                                        <ImageView
+                                            android:id="@+id/imgJoyThumb_2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:src="@drawable/joy_thumb"
+                                            android:visibility="invisible" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cat_ran"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dip"
+                                android:background="@drawable/cat_ran_bg"
+                                android:orientation="vertical"
+                                android:visibility="invisible" >
+
+                                <ImageButton
+                                    android:id="@+id/ran_play_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="100dip"
+                                    android:background="@drawable/ran_play" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cat_voice"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dip"
+                                android:background="@drawable/cat_voice_bg"
+                                android:orientation="vertical"
+                                android:visibility="invisible" >
+
+                                <ImageButton
+                                    android:id="@+id/voice_btn_2"
+                                    android:layout_width="130dip"
+                                    android:layout_height="130dip"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="170dip"
+                                    android:background="@drawable/speech" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+                    <!-- cat 부분 -->
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main" >
+
+    <ImageButton
+        android:id="@+id/connect"
+        android:layout_width="110dip"
+        android:layout_height="110dip"
+        android:layout_alignLeft="@+id/BougerPlay"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/connect" />
+
+    <ImageButton
+        android:id="@+id/BougerAlarm"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_above="@+id/connect"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="41dp"
+        android:layout_marginLeft="26dp"
+        android:background="@drawable/bougeralarm" />
+
+    <ImageButton
+        android:id="@+id/BougerPlay"
+        android:layout_width="85dip"
+        android:layout_height="85dip"
+        android:layout_above="@+id/BougerAlarm"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="43dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/bougerplay" />
+
+</RelativeLayout>

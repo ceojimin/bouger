@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. -->
+<resources>
+
+    <string name="app_name">Bouger</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Bouger</string>
+    
+    <string name="btntext">Send</string>
+    <string name="rantext">Send</string>
+    <string name="voicetext">Send</string>
+    
+    <!-- BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="move">Move</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">블루투스를 켠 후 이용해주시기 바랍니다.</string>
+    <string name="title_connecting">connecting.</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <string name="mic1">mic1</string>
+    <string name="mic2">mic2</string>
+    <string name="mic3">mic3</string>
+    <string name="sen1">sen1</string>
+    <string name="sen2">sen2</string>
+    <string name="sen3">sen3</string>
+    <string name="desc">desc</string>
+    <string name="speech_rec">Speech rec</string>
+    <string name="joystick">joystick</string>
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices.</string>
+    <string name="select_device">Bouger를 선택해주세요!</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <!-- Options Menu -->
+    <string name="bluetooth_scan">Connect a BT device</string>
+    <string name="robot">robot</string>
+    <string name="joystick_thumb">Joystick thumb</string>
+    <string name="connect">Connect Bouger</string>
+    <string name="disconnect">Disconnect Bouger</string>
+    <string name="mode_auto">Auto Mode</string>
+    <string name="mode_manual">Manual Mode</string>
+    <string name="mode_shoot">Shooting Mode</string>
+    <string name="Play">Play</string>
+    <string name="Stop">Stop</string>
+    <string name="mic_start">Mic Sensor Start</string>
+    <string name="mic_stop">Mic Sensor Stop</string>
+    <string name="mic_init">Init MIC</string>
+    <string name="get_max_sensor">Scan White BG</string>
+    <string name="get_min_sensor">Scan Black Line</string>
+    <string name="Space">Space</string>
+    
+     <!-- Korean characters -->
+    <string name="left_korean">왼쪽</string>
+    <string name="right_korean">오른쪽</string>
+    <string name="run_korean">앞쪽</string>
+    <string name="run_korean_mom">엄마</string>
+    <string name="back_korean_dad">아빠</string>
+    <string name="back_korean">뒤쪽</string>
+    <string name="back_korean_2">뒷쪽</string>    
+</resources>
